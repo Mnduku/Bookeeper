@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="bshelf.css"/>
+    
+</head>
+<body class = 'main' id = "main">
+    <div id="thepopup" class = "popup">
+        <form class = "info" method = "get" action = "#">
+            <legend class  = "dlabel" id = "legend"><strong>Book Info</strong></legend>
+            <ul id = "formlist" class = "forl">
+            
+            <div  class = "dlabel"><label for = "title" id = "name">Title: </label>
+            <input  type = "text" id = "title"  required></div>
+
+            <div  class = "dlabel"><label for = "namew" id = "namek">Author: </label>
+            <input type = "text" id = "namew"  required></div>
+
+            <div  class = "dlabel"><label for = "pages" id = "number">Pages: </label>
+            <input type = "number" id = "pages"  required></div>
+
+            <button type = "button" id = "addbook" class = "temp">Add book</button>
+            </ul>
+        </form>
+
+
+    </div>
+    <div class='top'>
+        <a class='title'><strong>My Bookshelf</strong></a>
+    </div>
+    <button class="add" onclick="dim()"><strong>Add book</strong></button>
+    <div class="shelf">
+    
+
+    
+    </div>
+    <script src = "bshelf.js"></script>
+</body>
+</htm
